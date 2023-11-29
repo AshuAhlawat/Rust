@@ -1,0 +1,9 @@
+*\debug
+*.rmeta
+*.d
+*.timestamp
+*.o
+*.tag
+*.bin
+*.json
+*.cargo-lock

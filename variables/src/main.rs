@@ -7,6 +7,7 @@ fn main() {
     let z: f64 = 3.14;
     let p: bool = !true;
 
+
 let q: char = 'o';let r: &str = "him n";
 
 println!("{} {}",x+x, y);   let x: i64 = 412293813135;y = 2344;     println!("

@@ -4,7 +4,6 @@ fn main() {
 
 fn first() {
     let y = second();
-
     print!("{y} {}",third())
 }
 

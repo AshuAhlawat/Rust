@@ -10,13 +10,15 @@ fn main() {
         println!("{x}");
         break;
     }
+    
+    let rand_rangje = -10..-5;
 
-    for i in (-10..-5).rev() {
+    for i in rand_rangje.clone() {
         println!("{i}");
     }
 
-    for i in (-10..-5) {
-        println!("{i}");
+    for (i, val) in rand_rangje.rev().enumerate() {
+        println!("{i}, {val}");
     }
 
     let mut j = 0;

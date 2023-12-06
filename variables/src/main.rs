@@ -1,5 +1,5 @@
 
-
+const ME:&str = "sheesh";
 fn main() {
 
     let x: i32 = -3;
@@ -16,7 +16,7 @@ Int 64 : {y}
 Float 64 : {z}
 Boolean : {p}
 Character : {q} 
-String : {r}"
+String : {r} {ME}"
 );
 
 }

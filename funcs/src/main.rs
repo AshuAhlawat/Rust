@@ -4,7 +4,7 @@ fn main() {
 
 fn first() {
     let y = second();
-    print!("{y} {}",third())
+    print!("{} {}",y,third())
 }
 
 fn second() -> &'static str {

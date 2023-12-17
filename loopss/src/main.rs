@@ -27,4 +27,12 @@ fn main() {
         j+=1;
     }
 
+    for j in "hello".chars() {
+        println!("{j}")
+    }
+
+    for i in 5..10 {
+        println!("{i}")
+    }
+
 }

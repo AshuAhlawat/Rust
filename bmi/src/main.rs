@@ -5,12 +5,7 @@ fn main() {
 
     println!("Enter your weight (kg): ");
 
-    io::stdin().read_line(&mut weight).expect("Some error");
-
-    
+    io::stdin().read_line(&mut weight).expect("Some error");  
 
     println!("\nUr Fat {weight}");
-
-    
-
 }
